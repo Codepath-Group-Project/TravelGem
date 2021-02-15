@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # TravelGem
 
 ## Table of Contents
@@ -68,8 +71,42 @@ Discover most popular traveling spots in cities.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | uniqueid for travel spot|
+   | image         | File     | image that user posts |
+   | description       | String   | travel description |
+   | cityName | String | name of City |
+   | zipcode | String | City zipcode|
+   | POI | Array | POI in City|
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
+-  No network requests, we only use an existing API no Parse network requests
+#### List of network requests by screen
+  
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+##### Sygic Travel API 
+- Base URL - [http://docs.sygictravelapi.com/1.2/](http://docs.sygictravelapi.com/1.2/)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /parent_place_id | Limit results to collections for location (such as London)
+    `GET`    | /place_ids | Limit results to collections that contain given places. 
+    `GET`    | /places/list  | This endpoint returns basic information about places. 
+    `GET`    | /places| Bulk request place details based on their ids.
+
+##### Open Trip Map API
+- Base URL - [https://opentripmap.io/docs#/](https://opentripmap.io/docs#/)
+
+   HTTP Verb | Endpoint | Description
+   ----------|----------|------------
+    `GET`    | /places/bbox | objects list
+    `GET`    | /places/xid| Unique identifier of the object in OpenTripMap
+    `GET`    | /places/name| The name of the object
+    `GET`    | /places/rate| Rating of the object popularity
+    `GET`    | /places/otm| Link to object at opentripmap.com
+    `GET`    | /places/image| image URL
+    

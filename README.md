@@ -110,3 +110,22 @@ Discover most popular traveling spots in cities.
     `GET`    | /places/otm| Link to object at opentripmap.com
     `GET`    | /places/image| image URL
     
+## User Stories
+
+The following **required** functionality is completed:
+
+- [ ] User can search for a city. 
+- [ ] User can view list of POIs
+- [ ] User can view detail and description of a POI.
+
+
+The following **bonus** features are implemented:
+
+- [ ] TBD
+- [ ] TBD
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/HcIEEmo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370732B525E359AE005D981A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732B425E359AE005D981A /* LoginViewController.swift */; };
 		BD92C06D25E34433007BCC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C06C25E34433007BCC52 /* AppDelegate.swift */; };
 		BD92C06F25E34433007BCC52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C06E25E34433007BCC52 /* SceneDelegate.swift */; };
 		BD92C07125E34433007BCC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C07025E34433007BCC52 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370732B425E359AE005D981A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD92C06925E34433007BCC52 /* TravelGem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92C06C25E34433007BCC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD92C06E25E34433007BCC52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BD92C07525E34436007BCC52 /* Assets.xcassets */,
 				BD92C07725E34436007BCC52 /* LaunchScreen.storyboard */,
 				BD92C07A25E34436007BCC52 /* Info.plist */,
+				370732B425E359AE005D981A /* LoginViewController.swift */,
 			);
 			path = TravelGem;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370732B525E359AE005D981A /* LoginViewController.swift in Sources */,
 				BD92C07125E34433007BCC52 /* ViewController.swift in Sources */,
 				BD92C06D25E34433007BCC52 /* AppDelegate.swift in Sources */,
 				BD92C06F25E34433007BCC52 /* SceneDelegate.swift in Sources */,

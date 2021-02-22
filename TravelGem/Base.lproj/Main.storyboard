@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Search"/>
                                 <connections>
-                                    <action selector="OnSearchButton:" destination="nyo-zO-5xj" eventType="touchUpInside" id="95z-RX-6Ne"/>
+                                    <action selector="OnSearchButton:" destination="nyo-zO-5xj" eventType="touchUpInside" id="rCa-7G-KEZ"/>
                                     <segue destination="27O-bl-3Yo" kind="presentation" identifier="POIlist" id="qV4-D3-e45"/>
                                 </connections>
                             </button>

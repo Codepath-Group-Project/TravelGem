@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		370732B525E359AE005D981A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732B425E359AE005D981A /* LoginViewController.swift */; };
+		370732BA25E5F3EE005D981A /* POIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732B925E5F3EE005D981A /* POIDetailViewController.swift */; };
+		370732C225E5F517005D981A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732C125E5F517005D981A /* TableViewController.swift */; };
+		3E96A9EBEF452B80F9568DA8 /* Pods_TravelGem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B67563B4089395BFE7202 /* Pods_TravelGem.framework */; };
+		54F641E5A0B89A79C381B5E8 /* Pods_TravelGemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FF824269F24EE1560EC3FB /* Pods_TravelGemTests.framework */; };
+		5996B0F22BFF07F5CE23F5FF /* Pods_TravelGem_TravelGemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235C808688076AAE5536E78A /* Pods_TravelGem_TravelGemUITests.framework */; };
 		BD92C06D25E34433007BCC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C06C25E34433007BCC52 /* AppDelegate.swift */; };
 		BD92C06F25E34433007BCC52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C06E25E34433007BCC52 /* SceneDelegate.swift */; };
-		BD92C07125E34433007BCC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92C07025E34433007BCC52 /* ViewController.swift */; };
 		BD92C07425E34433007BCC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD92C07225E34433007BCC52 /* Main.storyboard */; };
 		BD92C07625E34436007BCC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD92C07525E34436007BCC52 /* Assets.xcassets */; };
 		BD92C07925E34436007BCC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD92C07725E34436007BCC52 /* LaunchScreen.storyboard */; };
@@ -36,11 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F661EEEDA271A1F8B7A12E2 /* Pods-TravelGemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGemTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelGemTests/Pods-TravelGemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		235C808688076AAE5536E78A /* Pods_TravelGem_TravelGemUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelGem_TravelGemUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C15CFC60AC4258B623AEEC /* Pods-TravelGem-TravelGemUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGem-TravelGemUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		370732B425E359AE005D981A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		370732B925E5F3EE005D981A /* POIDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIDetailViewController.swift; sourceTree = "<group>"; };
+		370732C125E5F517005D981A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		474B67563B4089395BFE7202 /* Pods_TravelGem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelGem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA99E3424F07EB7CDCB9345 /* Pods-TravelGemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGemTests.release.xcconfig"; path = "Target Support Files/Pods-TravelGemTests/Pods-TravelGemTests.release.xcconfig"; sourceTree = "<group>"; };
+		A53C238D39B7AD2F7590E306 /* Pods-TravelGem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGem.release.xcconfig"; path = "Target Support Files/Pods-TravelGem/Pods-TravelGem.release.xcconfig"; sourceTree = "<group>"; };
+		B3FF824269F24EE1560EC3FB /* Pods_TravelGemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelGemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92C06925E34433007BCC52 /* TravelGem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92C06C25E34433007BCC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD92C06E25E34433007BCC52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD92C07025E34433007BCC52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD92C07325E34433007BCC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD92C07525E34436007BCC52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD92C07825E34436007BCC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		BD92C08A25E34437007BCC52 /* TravelGemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelGemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD92C08E25E34437007BCC52 /* TravelGemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGemUITests.swift; sourceTree = "<group>"; };
 		BD92C09025E34437007BCC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EED5DC5F4EAD0875A08F7F /* Pods-TravelGem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGem.debug.xcconfig"; path = "Target Support Files/Pods-TravelGem/Pods-TravelGem.debug.xcconfig"; sourceTree = "<group>"; };
+		FA950FD5235EE70DDD537602 /* Pods-TravelGem-TravelGemUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGem-TravelGemUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E96A9EBEF452B80F9568DA8 /* Pods_TravelGem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F641E5A0B89A79C381B5E8 /* Pods_TravelGemTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5996B0F22BFF07F5CE23F5FF /* Pods_TravelGem_TravelGemUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9DD2B478500684FA32E2BA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6EED5DC5F4EAD0875A08F7F /* Pods-TravelGem.debug.xcconfig */,
+				A53C238D39B7AD2F7590E306 /* Pods-TravelGem.release.xcconfig */,
+				31C15CFC60AC4258B623AEEC /* Pods-TravelGem-TravelGemUITests.debug.xcconfig */,
+				FA950FD5235EE70DDD537602 /* Pods-TravelGem-TravelGemUITests.release.xcconfig */,
+				1F661EEEDA271A1F8B7A12E2 /* Pods-TravelGemTests.debug.xcconfig */,
+				6EA99E3424F07EB7CDCB9345 /* Pods-TravelGemTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BD92C06025E34433007BCC52 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				BD92C08225E34437007BCC52 /* TravelGemTests */,
 				BD92C08D25E34437007BCC52 /* TravelGemUITests */,
 				BD92C06A25E34433007BCC52 /* Products */,
+				B9DD2B478500684FA32E2BA9 /* Pods */,
+				C9954DE943EDCC9326C31CBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +136,13 @@
 			children = (
 				BD92C06C25E34433007BCC52 /* AppDelegate.swift */,
 				BD92C06E25E34433007BCC52 /* SceneDelegate.swift */,
-				BD92C07025E34433007BCC52 /* ViewController.swift */,
 				BD92C07225E34433007BCC52 /* Main.storyboard */,
 				BD92C07525E34436007BCC52 /* Assets.xcassets */,
 				BD92C07725E34436007BCC52 /* LaunchScreen.storyboard */,
 				BD92C07A25E34436007BCC52 /* Info.plist */,
 				370732B425E359AE005D981A /* LoginViewController.swift */,
+				370732B925E5F3EE005D981A /* POIDetailViewController.swift */,
+				370732C125E5F517005D981A /* TableViewController.swift */,
 			);
 			path = TravelGem;
 			sourceTree = "<group>";
@@ -131,6 +165,16 @@
 			path = TravelGemUITests;
 			sourceTree = "<group>";
 		};
+		C9954DE943EDCC9326C31CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474B67563B4089395BFE7202 /* Pods_TravelGem.framework */,
+				235C808688076AAE5536E78A /* Pods_TravelGem_TravelGemUITests.framework */,
+				B3FF824269F24EE1560EC3FB /* Pods_TravelGemTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92C09325E34437007BCC52 /* Build configuration list for PBXNativeTarget "TravelGem" */;
 			buildPhases = (
+				C8FB00B4FACDD058C0CFDA37 /* [CP] Check Pods Manifest.lock */,
 				BD92C06525E34433007BCC52 /* Sources */,
 				BD92C06625E34433007BCC52 /* Frameworks */,
 				BD92C06725E34433007BCC52 /* Resources */,
+				CD43CDB0D7E454830248925B /* [CP] Embed Pods Frameworks */,
+				7D0368FD02C6D3B589782F38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92C09625E34437007BCC52 /* Build configuration list for PBXNativeTarget "TravelGemTests" */;
 			buildPhases = (
+				09DD8FBF019A89D35F056054 /* [CP] Check Pods Manifest.lock */,
 				BD92C07B25E34437007BCC52 /* Sources */,
 				BD92C07C25E34437007BCC52 /* Frameworks */,
 				BD92C07D25E34437007BCC52 /* Resources */,
@@ -173,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD92C09925E34437007BCC52 /* Build configuration list for PBXNativeTarget "TravelGemUITests" */;
 			buildPhases = (
+				15B79D8A5BA45248B93D0B5E /* [CP] Check Pods Manifest.lock */,
 				BD92C08625E34437007BCC52 /* Sources */,
 				BD92C08725E34437007BCC52 /* Frameworks */,
 				BD92C08825E34437007BCC52 /* Resources */,
+				CD925A677705DA31B82F50C5 /* [CP] Embed Pods Frameworks */,
+				5AAE2DB612B344B3AA53F5AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,15 +307,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09DD8FBF019A89D35F056054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelGemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B79D8A5BA45248B93D0B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelGem-TravelGemUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AAE2DB612B344B3AA53F5AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0368FD02C6D3B589782F38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FB00B4FACDD058C0CFDA37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelGem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD43CDB0D7E454830248925B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelGem/Pods-TravelGem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD925A677705DA31B82F50C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelGem-TravelGemUITests/Pods-TravelGem-TravelGemUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD92C06525E34433007BCC52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				370732B525E359AE005D981A /* LoginViewController.swift in Sources */,
-				BD92C07125E34433007BCC52 /* ViewController.swift in Sources */,
 				BD92C06D25E34433007BCC52 /* AppDelegate.swift in Sources */,
 				BD92C06F25E34433007BCC52 /* SceneDelegate.swift in Sources */,
+				370732C225E5F517005D981A /* TableViewController.swift in Sources */,
+				370732BA25E5F3EE005D981A /* POIDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +626,7 @@
 		};
 		BD92C09425E34437007BCC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6EED5DC5F4EAD0875A08F7F /* Pods-TravelGem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +645,7 @@
 		};
 		BD92C09525E34437007BCC52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53C238D39B7AD2F7590E306 /* Pods-TravelGem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +664,7 @@
 		};
 		BD92C09725E34437007BCC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F661EEEDA271A1F8B7A12E2 /* Pods-TravelGemTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +686,7 @@
 		};
 		BD92C09825E34437007BCC52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA99E3424F07EB7CDCB9345 /* Pods-TravelGemTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +708,7 @@
 		};
 		BD92C09A25E34437007BCC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C15CFC60AC4258B623AEEC /* Pods-TravelGem-TravelGemUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +728,7 @@
 		};
 		BD92C09B25E34437007BCC52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA950FD5235EE70DDD537602 /* Pods-TravelGem-TravelGemUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

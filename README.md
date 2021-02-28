@@ -115,7 +115,7 @@ Discover most popular traveling spots in cities.
 The following **required** functionality is completed:
 
 - [x] User can search for a city. 
-- [ ] User can view list of POIs
+- [x] User can view list of POIs
 - [ ] User can view detail and description of a POI.
 
 

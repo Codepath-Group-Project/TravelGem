@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		370732B525E359AE005D981A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732B425E359AE005D981A /* LoginViewController.swift */; };
 		370732BA25E5F3EE005D981A /* POIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732B925E5F3EE005D981A /* POIDetailViewController.swift */; };
 		370732C225E5F517005D981A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732C125E5F517005D981A /* TableViewController.swift */; };
+		370732D425EB0D33005D981A /* POICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370732D325EB0D33005D981A /* POICell.swift */; };
 		3E96A9EBEF452B80F9568DA8 /* Pods_TravelGem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474B67563B4089395BFE7202 /* Pods_TravelGem.framework */; };
 		54F641E5A0B89A79C381B5E8 /* Pods_TravelGemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FF824269F24EE1560EC3FB /* Pods_TravelGemTests.framework */; };
 		5996B0F22BFF07F5CE23F5FF /* Pods_TravelGem_TravelGemUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235C808688076AAE5536E78A /* Pods_TravelGem_TravelGemUITests.framework */; };
@@ -46,6 +47,7 @@
 		370732B425E359AE005D981A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		370732B925E5F3EE005D981A /* POIDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIDetailViewController.swift; sourceTree = "<group>"; };
 		370732C125E5F517005D981A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		370732D325EB0D33005D981A /* POICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICell.swift; sourceTree = "<group>"; };
 		474B67563B4089395BFE7202 /* Pods_TravelGem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelGem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA99E3424F07EB7CDCB9345 /* Pods-TravelGemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGemTests.release.xcconfig"; path = "Target Support Files/Pods-TravelGemTests/Pods-TravelGemTests.release.xcconfig"; sourceTree = "<group>"; };
 		A53C238D39B7AD2F7590E306 /* Pods-TravelGem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelGem.release.xcconfig"; path = "Target Support Files/Pods-TravelGem/Pods-TravelGem.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +107,6 @@
 				1F661EEEDA271A1F8B7A12E2 /* Pods-TravelGemTests.debug.xcconfig */,
 				6EA99E3424F07EB7CDCB9345 /* Pods-TravelGemTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,6 +144,7 @@
 				370732B425E359AE005D981A /* LoginViewController.swift */,
 				370732B925E5F3EE005D981A /* POIDetailViewController.swift */,
 				370732C125E5F517005D981A /* TableViewController.swift */,
+				370732D325EB0D33005D981A /* POICell.swift */,
 			);
 			path = TravelGem;
 			sourceTree = "<group>";
@@ -451,6 +453,7 @@
 			files = (
 				370732B525E359AE005D981A /* LoginViewController.swift in Sources */,
 				BD92C06D25E34433007BCC52 /* AppDelegate.swift in Sources */,
+				370732D425EB0D33005D981A /* POICell.swift in Sources */,
 				BD92C06F25E34433007BCC52 /* SceneDelegate.swift in Sources */,
 				370732C225E5F517005D981A /* TableViewController.swift in Sources */,
 				370732BA25E5F3EE005D981A /* POIDetailViewController.swift in Sources */,

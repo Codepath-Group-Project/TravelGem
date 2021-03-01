@@ -14,11 +14,25 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
+    @IBOutlet weak var SearchBar: UITextField!
+    
     
     @IBAction func OnSearchButton(_ sender: Any) {
-        self.performSelector(inBackground: "POIlist", with: self)
-    }
+     
+        
+        
+        self.performSegue(withIdentifier: "POIlist", sender: self)
+       
+        
+}
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let navi = segue.destination as? UINavigationController,
+           
+                let dest = navi.topViewController as? TableViewController{
+            dest.cityname = SearchBar.text ?? "Irvine"}
+    }
     /*
     // MARK: - Navigation
 

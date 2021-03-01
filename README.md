@@ -128,4 +128,11 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+Sprint 1:
+
 <img src='http://g.recordit.co/wRVQ7uT1WT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Sprint 2:
+
+<img src='http://g.recordit.co/9fxsMWiV42.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+

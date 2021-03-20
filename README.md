@@ -116,7 +116,7 @@ The following **required** functionality is completed:
 
 - [x] User can search for a city. 
 - [x] User can view list of POIs
-- [ ] User can view detail and description of a POI.
+- [x] User can view detail and description of a POI.
 
 
 The following **bonus** features are implemented:
